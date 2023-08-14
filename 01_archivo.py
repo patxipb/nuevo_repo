@@ -11,7 +11,7 @@ for i in my_list:
 
 
 my_dict = dict()
-my_dict = {"clave":"valor", 
+my_dict = {"clave1":"valor", 
             "clave2":"valor2"}
 print(my_dict.keys())
 print(my_dict.values())
