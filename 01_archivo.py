@@ -25,3 +25,6 @@ for i in my_dict.keys():
 
 for i in my_dict.values():
     print(i)
+
+for clave, valor in my_dict.items():
+    print(clave, valor)
