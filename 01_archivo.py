@@ -8,3 +8,20 @@ print(type(my_list))
 
 for i in my_list:  
     print(i)
+
+
+my_dict = dict()
+my_dict = {"clave":"valor", 
+            "clave2":"valor2"}
+print(my_dict.keys())
+print(my_dict.values())
+
+for i in my_dict:
+    print(i) #asi obtenemos la clave
+    print(my_dict[i]) #asi obtenemos el valor
+
+for i in my_dict.keys():
+    print(i)
+
+for i in my_dict.values():
+    print(i)
