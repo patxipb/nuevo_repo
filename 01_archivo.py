@@ -1,9 +1,15 @@
 x = 5
 
 my_list = {5, 6, 7, 8}
+my_list.add(9)
+
 print(type(my_list))
 
+for i in my_list:  
+    print(i)
+
 my_list = [5, 6, 7, 8]
+my_list.append(9)
 print(type(my_list))
 
 for i in my_list:  
