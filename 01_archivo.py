@@ -38,8 +38,3 @@ for clave, valor in my_dict.items():
 print("Esto desde el movil")
 print("Ahora un commit online")
 
-#ahora un nuevo commit 
-
-#otro cambio online
-
-#ahora un cambio local
