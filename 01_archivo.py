@@ -36,7 +36,10 @@ for clave, valor in my_dict.items():
     print(clave, valor)
 
 import os
-txt_file = open("/archivo.txt","w+")
-txt_file.write("Escribiendo en un archivo")
-print(txt_file.readline())
-txt-file.close
+txt_file = open("archivo.txt","w+")
+txt_file.readlines() #para recorrer hasta el final
+txt_file.write("Hola\n")
+txt_file.close
+txt_file = open("archivo.txt","r+")
+print(txt_file.readlines())
+txt_file.close
