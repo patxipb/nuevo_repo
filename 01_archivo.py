@@ -35,6 +35,6 @@ for i in my_dict.values():
 for clave, valor in my_dict.items():
     print(clave, valor)
 
-print("Esto desde el movil")
-print("Ahora un commit online")
+import os
+
 
