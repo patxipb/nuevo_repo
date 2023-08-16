@@ -37,4 +37,5 @@ for clave, valor in my_dict.items():
 
 import os
 txt_file = open("/archivo.txt","w+")
-txt_file.write
+txt_file.write("Escribiendo en un archivo")
+txt-file.close
