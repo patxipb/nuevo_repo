@@ -36,5 +36,5 @@ for clave, valor in my_dict.items():
     print(clave, valor)
 
 import os
-open("/archivo.txt","w+")
+txt_file = open("/archivo.txt","w+")
 
