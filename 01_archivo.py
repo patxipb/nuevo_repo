@@ -36,9 +36,9 @@ for clave, valor in my_dict.items():
     print(clave, valor)
 
 import os
-txt_file = open("archivo.txt","w+")
+txt_file = open("archivo.txt","a")
 txt_file.write("Hola\n")
-despedida = "Adios"
+despedida = "Adios\n"
 txt_file.write(despedida)
 txt_file.close
 
