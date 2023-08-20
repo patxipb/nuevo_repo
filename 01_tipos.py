@@ -1,3 +1,4 @@
+#ejemplos de tipos de estructuras
 x = 5
 
 my_list = {5, 6, 7, 8}
@@ -34,17 +35,5 @@ for i in my_dict.values():
 
 for clave, valor in my_dict.items():
     print(clave, valor)
-
-import os
-txt_file = open("archivo.txt","a")
-txt_file.write("Hola\n")
-despedida = "Adios\n"
-txt_file.write(despedida)
-txt_file.close
-
-txt_file = open("archivo.txt","r+")
-for line in txt_file.readlines():
-    print(line)
-
 
 
