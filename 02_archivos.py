@@ -1,16 +1,19 @@
-#ejemplos de manejo de ficheros
+### ejemplos de manejo de ficheros ###
 
 #archivo .txt
 import os
-txt_file = open("archivo.txt","a")
+txt_file = open("archivo.txt","a+")
 txt_file.write("Hola\n")
 despedida = "Adios\n"
 txt_file.write(despedida)
-txt_file.close
-
-txt_file = open("archivo.txt","r+")
+#txt_file.close
+txt_file.seek(0) #para ir al inicio del fichero
 for line in txt_file.readlines():
     print(line)
+
+# txt_file = open("archivo.txt","r+") #si hemos cerrado el fichero, volvemos a abrirlo
+# for line in txt_file.readlines():
+#     print(line)
 
 #archivo .json
 import json
